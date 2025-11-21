@@ -1,0 +1,17 @@
+﻿  monster.cpp
+E:\文件\obsidian笔记\仓库1\武大学业\QQ文件\QQ\武大学业相关\monster\monster\monster.h(174,38): warning C4244: “return”: 从“const int”转换到“float”，可能丢失数据
+  (编译源文件“monster.cpp”)
+  
+E:\文件\obsidian笔记\仓库1\武大学业\QQ文件\QQ\武大学业相关\monster\monster\monster.h(175,37): warning C4244: “return”: 从“const int”转换到“float”，可能丢失数据
+  (编译源文件“monster.cpp”)
+  
+monster.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl monster::resetColor(void)" (?resetColor@monster@@QEAAXXZ)，函数 "public: void __cdecl monster::update(float)" (?update@monster@@QEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl monster::updateStateFlagTimers(float)" (?updateStateFlagTimers@monster@@AEAAXM@Z)，函数 "public: void __cdecl monster::update(float)" (?update@monster@@QEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl monster::updateHealthBar(void)" (?updateHealthBar@monster@@AEAAXXZ)，函数 "public: void __cdecl monster::update(float)" (?update@monster@@QEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl monster::updateSlowedState(float)" (?updateSlowedState@monster@@AEAAXM@Z)，函数 "private: void __cdecl monster::updateStateSpecificLogic(float)" (?updateStateSpecificLogic@monster@@AEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl monster::updateFrozenState(float)" (?updateFrozenState@monster@@AEAAXM@Z)，函数 "private: void __cdecl monster::updateStateSpecificLogic(float)" (?updateStateSpecificLogic@monster@@AEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl monster::updatePoisonState(float)" (?updatePoisonState@monster@@AEAAXM@Z)，函数 "private: void __cdecl monster::updateStateSpecificLogic(float)" (?updateStateSpecificLogic@monster@@AEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl monster::cleanupExpiredEffect(void)" (?cleanupExpiredEffect@monster@@AEAAXXZ)，函数 "private: void __cdecl monster::updateStatusEffects(float)" (?updateStatusEffects@monster@@AEAAXM@Z) 中引用了该符号
+monster.obj : error LNK2001: 无法解析的外部符号 "private: static int monster::nextID" (?nextID@monster@@0HA)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+E:\文件\obsidian笔记\仓库1\武大学业\QQ文件\QQ\武大学业相关\monster\x64\Debug\monster.exe : fatal error LNK1120: 9 个无法解析的外部命令
